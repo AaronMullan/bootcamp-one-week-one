@@ -7,15 +7,15 @@ myButton.onclick = () => {
     alert('welcome to my quiz!');
     const myConfirmation = confirm('Would you like to take my quiz?');
     console.log(myConfirmation);
-    const userAnswer = prompt('Are cats felines?');
+    const userAnswer = prompt('Do my Addidas roam all over coloseum floors?');
     const sanitizedUserAnswer = userAnswer.toLocaleLowerCase().trim();
     console.log(sanitizedUserAnswer);
 
 
     if(sanitizedUserAnswer === 'yes') {
-        alert ('You are correct, cats are felines.');
+        alert ('You are correct, they do.');
     }
     else {
-        alert('naYour answer is incorrect');
+        alert('Well, actually my Addidas DO roam all over coloseum floors');
     }
 };
