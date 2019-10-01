@@ -4,4 +4,6 @@ export const isCorrect = (sanitizedUserAnswer) => {
     } else {
         return false;
     }
-};
+
+};   
+    
