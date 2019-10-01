@@ -1,4 +1,4 @@
-import {isCorrect} from 'functions.js';
+import { isCorrect } from './functions.js';
 
 const myButton = document.getElementById('action-button');
 
@@ -11,10 +11,11 @@ myButton.onclick = () => {
     const sanitizedUserAnswer = userAnswer.toLocaleLowerCase().trim();
     console.log(sanitizedUserAnswer);
 
-    const
 
-    if(sanitizedUserAnswer === 'yes'){
-        ('right-o!');}
-    else {alert('naah');
+    if(sanitizedUserAnswer === 'yes') {
+        alert ('right-o!');
+    }
+    else {
+        alert('naah');
     }
 };
